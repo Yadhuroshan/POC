@@ -1,4 +1,10 @@
 site_name: MkDocs POC
+nav:
+ - Home: 'index.md'
+ - Overview: 'Home.md'
+ - About: 'About.md'
+ - Features: 'Features.md'
+ - Miscellaneous: 'page1.md'
 repo_url: https://github.com/Yadhuroshan/POC
 theme:
-  name: mkdocs
+  name: readthedocs
