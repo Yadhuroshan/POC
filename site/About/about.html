@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>About - MkDocs POC</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "About";
+        var mkdocs_page_input_path = "About.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> MkDocs POC
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Welcome to MkDocs</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">About</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#pip-installation">PIP Installation</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Features/">Features</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Home/">What is MkDocs?</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../page1/">Page1</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">MkDocs POC</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>About</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/Yadhuroshan/POC/edit/master/docs/About.md" class="icon icon-github"> Edit on GitHub</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <div class="toc">
+<ul>
+<li><a href="#installation">Installation</a><ul>
+<li><a href="#pip-installation">PIP Installation</a></li>
+</ul>
+</li>
+<li><a href="#creating-a-new-project">Creating a new project</a></li>
+<li><a href="#the-initial-mkdocs-layout">The initial MkDocs layout</a><ul>
+<li><a href="#images">Images</a></li>
+<li><a href="#server">Server</a></li>
+<li><a href="#the-mkdocs-live-server">The MkDocs live server</a></li>
+<li><a href="#adding-pages">Adding pages</a></li>
+<li><a href="#theming-our-documentation">Theming our documentation</a></li>
+<li><a href="#changing-the-favicon-icon">Changing the Favicon Icon</a></li>
+<li><a href="#building-the-site">Building the site</a></li>
+<li><a href="#other-commands-and-options">Other Commands and Options</a></li>
+<li><a href="#toc">TOC</a></li>
+<li><a href="#deploying">Deploying</a></li>
+</ul>
+</li>
+<li><a href="#getting-help">Getting help</a></li>
+</ul>
+</div>
+<h1 id="installation">Installation</h1>
+<p>To install MkDocs, run the following command from the command line:</p>
+<h2 id="pip-installation">PIP Installation</h2>
+<p>pip install mkdocs</p>
+<p>For more details, see the Installation Guide.</p>
+<h1 id="creating-a-new-project">Creating a new project</h1>
+<p>Getting started is super easy. To create a new project, run the following command from the command line:</p>
+<p>mkdocs new my-project
+cd my-project</p>
+<p>Take a moment to review the initial project that has been created for you.</p>
+<h1 id="the-initial-mkdocs-layout">The initial MkDocs layout</h1>
+<p>There's a single configuration file named mkdocs.yml, and a folder named docs that will contain your documentation source files (docs is the default value for the docs_dir configuration setting). Right now the docs folder just contains a single documentation page, named index.md.</p>
+<h2 id="images">Images</h2>
+<p>For adding images into pages, use the following code line:</p>
+<p><img alt="Image" src="../img/screenshot.png" title="Screenshot" /></p>
+<h2 id="server">Server</h2>
+<p>MkDocs comes with a built-in dev-server that lets you preview your documentation as you work on it. Make sure you're in the same directory as the mkdocs.yml configuration file, and then start the server by running the mkdocs serve command:</p>
+<p>$ mkdocs serve
+INFO    -  Building documentation...
+INFO    -  Cleaning site directory
+[I 160402 15:50:43 server:271] Serving on http://127.0.0.1:8000
+[I 160402 15:50:43 handlers:58] Start watching changes
+[I 160402 15:50:43 handlers:60] Start detecting changes
+Open up http://127.0.0.1:8000/ in your browser, and you'll see the default home page being displayed:</p>
+<h2 id="the-mkdocs-live-server">The MkDocs live server</h2>
+<p>The dev-server also supports auto-reloading, and will rebuild your documentation whenever anything in the configuration file, documentation directory, or theme directory changes.</p>
+<p>Open the docs/index.md document in your text editor of choice, change the initial heading to MkLorum, and save your changes. Your browser will auto-reload and you should see your updated documentation immediately.</p>
+<p>Now try editing the configuration file: mkdocs.yml. Change the site_name setting to MkLorum and save the file.</p>
+<p>site_name: MkLorum
+site_url: https://example.com/
+Your browser should immediately reload, and you'll see your new site name take effect.</p>
+<p>The site_name setting</p>
+<p>Note: The site_name and site_url configuration options are the only two required options in your configuration file. When you create a new project, the site_url option is assigned the placeholder value: https://example.com. If the final location is known, you can change the setting now to point to it. Or you may choose to leave it alone for now. Just be sure to edit it before you deploy your site to a production server.</p>
+<h2 id="adding-pages">Adding pages</h2>
+<p>Now add a second page to your documentation:</p>
+<p>curl 'https://jaspervdj.be/lorem-markdownum/markdown.txt' &gt; docs/about.md
+As our documentation site will include some navigation headers, you may want to edit the configuration file and add some information about the order, title, and nesting of each page in the navigation header by adding a nav setting:</p>
+<p>site_name: MkLorum
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+Save your changes and you'll now see a navigation bar with Home and About items on the left as well as Search, Previous, and Next items on the right.</p>
+<p>Try the menu items and navigate back and forth between pages. Then click on Search. A search dialog will appear, allowing you to search for any text on any page. Notice that the search results include every occurrence of the search term on the site and links directly to the section of the page in which the search term appears. You get all of that with no effort or configuration on your part!</p>
+<h2 id="theming-our-documentation">Theming our documentation</h2>
+<p>Now change the configuration file to alter how the documentation is displayed by changing the theme. Edit the mkdocs.yml file and add a theme setting:</p>
+<p>site_name: MkLorum
+site_url: https://example.com/
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
+Save your changes, and you'll see the ReadTheDocs theme being used.</p>
+<h2 id="changing-the-favicon-icon">Changing the Favicon Icon</h2>
+<p>By default, MkDocs uses the MkDocs favicon icon. To use a different icon, create an img subdirectory in the docs directory and copy your custom favicon.ico file to that directory. MkDocs will automatically detect and use that file as your favicon icon.</p>
+<h2 id="building-the-site">Building the site</h2>
+<p>That's looking good. You're ready to deploy the first pass of your MkLorum documentation. First build the documentation:</p>
+<p>mkdocs build
+This will create a new directory, named site. Take a look inside the directory:</p>
+<p>$ ls site
+about  fonts  index.html  license  search.html
+css    img    js          mkdocs   sitemap.xml
+Notice that your source documentation has been output as two HTML files named index.html and about/index.html. You also have various other media that's been copied into the site directory as part of the documentation theme. You even have a sitemap.xml file and mkdocs/search_index.json.</p>
+<p>If you're using source code control such as git you probably don't want to check your documentation builds into the repository. Add a line containing site/ to your .gitignore file.</p>
+<p>echo "site/" &gt;&gt; .gitignore</p>
+<p>If you're using another source code control tool you'll want to check its documentation on how to ignore specific directories.</p>
+<h2 id="other-commands-and-options">Other Commands and Options</h2>
+<p>There are various other commands and options available. For a complete list of commands, use the --help flag:</p>
+<p>mkdocs --help
+To view a list of options available on a given command, use the --help flag with that command. For example, to get a list of all options available for the build command run the following:</p>
+<p>mkdocs build --help</p>
+<h2 id="toc">TOC</h2>
+<p>The code for adding a Toc, by default it is already enabled in the theme:</p>
+<p>"[TOC]"</p>
+<p>"# Header 1"</p>
+<p>"## Header 2"</p>
+<h2 id="deploying">Deploying</h2>
+<p>The documentation site that you just built only uses static files so you'll be able to host it from pretty much anywhere. Simply upload the contents of the entire site directory to wherever you're hosting your website from and you're done. For specific instructions on a number of common hosts, see the Deploying your Docs page.</p>
+<h1 id="getting-help">Getting help</h1>
+<p>See the User Guide for more complete documentation of all of MkDocs' features.</p>
+<p>To get help with MkDocs, please use the GitHub discussions or GitHub issues.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href=".." class="btn btn-neutral float-left" title="Welcome to MkDocs"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../Features/" class="btn btn-neutral float-right" title="Features">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/Yadhuroshan/POC" class="fa fa-github" style="color: #fcfcfc"> GitHub</a>
+        </span>
+    
+    
+      <span><a href=".." style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../Features/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
