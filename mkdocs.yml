@@ -1,4 +1,4 @@
 site_name: MkDocs POC
 repo_url: https://github.com/Yadhuroshan/POC
 theme:
-  name: windmill
+  name: mkdocs
